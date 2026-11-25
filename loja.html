@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado - Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Supermercado</h1>
+
+    <p>Compras acima de R$ 200,00 recebem 5% de desconto.</p>
+
+    <a href="index.html">Gerenciar produtos</a>
+
+    <h2>Produtos disponíveis</h2>
+
+    <p id="aviso-loja"></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Estoque</th>
+                <th>Quantidade desejada</th>
+            </tr>
+        </thead>
+
+        <tbody id="produtos-loja"></tbody>
+    </table> <h2>Resumo da compra</h2>
+
+<p>Subtotal: <span id="subtotal">R$ 0,00</span></p>
+<p>Desconto: <span id="desconto">R$ 0,00</span></p>
+<p><strong>Total: <span id="total">R$ 0,00</span></strong></p>
+<button type="button" id="finalizar-compra">Finalizar compra</button>
+<p id="mensagem-compra"></p>
+
+<script src="loja.js"></script>
+</body>
+</html>
